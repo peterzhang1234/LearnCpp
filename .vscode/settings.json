@@ -1,0 +1,25 @@
+{
+    "clangd.path": "clangd",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/.clangd"
+    ],
+    "editor.inlayHints.fontFamily": "Maple Mono SC NF",
+    "editor.fontFamily": "'Maple Mono SC NF',Consolas, 'Courier New', monospace",
+    "cmake.configureOnOpen": true,
+    "terminal.integrated.fontFamily": "",
+    "lldb.displayFormat": "decimal",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands",
+    
+    // Using the light mode
+    "indentRainbow.indicatorStyle": "light",
+    // we use a simple 1 pixel wide line
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+    // the same colors as above but more visible
+    "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+}

@@ -1,0 +1,17 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "build",
+            "displayName": "GCC 13.2.1 x86_64-pc-linux-gnu",
+            "description": "使用编译器: C = /usr/sbin/gcc, CXX = /usr/sbin/g++",
+            "binaryDir": "${sourceDir}/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/sbin/gcc",
+                "CMAKE_CXX_COMPILER": "/usr/sbin/g++",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}

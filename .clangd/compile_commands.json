@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/arch/code/build/3rd/googletest/googlemock",
+  "command": "/usr/sbin/g++  -I/home/arch/code/3rd/googletest/googlemock/include -I/home/arch/code/3rd/googletest/googlemock -isystem /home/arch/code/3rd/googletest/googletest/include -isystem /home/arch/code/3rd/googletest/googletest  -g -Wall -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/arch/code/3rd/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/arch/code/3rd/googletest/googlemock/src/gmock-all.cc",
+  "output": "3rd/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/arch/code/build/3rd/googletest/googlemock",
+  "command": "/usr/sbin/g++  -isystem /home/arch/code/3rd/googletest/googlemock/include -isystem /home/arch/code/3rd/googletest/googlemock -isystem /home/arch/code/3rd/googletest/googletest/include -isystem /home/arch/code/3rd/googletest/googletest  -g -Wall -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/arch/code/3rd/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/arch/code/3rd/googletest/googlemock/src/gmock_main.cc",
+  "output": "3rd/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/arch/code/build/3rd/googletest/googletest",
+  "command": "/usr/sbin/g++  -I/home/arch/code/3rd/googletest/googletest/include -I/home/arch/code/3rd/googletest/googletest  -g -Wall -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/arch/code/3rd/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/arch/code/3rd/googletest/googletest/src/gtest-all.cc",
+  "output": "3rd/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/arch/code/build/3rd/googletest/googletest",
+  "command": "/usr/sbin/g++  -isystem /home/arch/code/3rd/googletest/googletest/include -isystem /home/arch/code/3rd/googletest/googletest  -g -Wall -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/arch/code/3rd/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/arch/code/3rd/googletest/googletest/src/gtest_main.cc",
+  "output": "3rd/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/arch/code/build/src",
+  "command": "/usr/sbin/g++  -I/home/arch/code/src/include  -g -Wall -g -std=gnu++14 -o CMakeFiles/func.dir/source/hello.cpp.o -c /home/arch/code/src/source/hello.cpp",
+  "file": "/home/arch/code/src/source/hello.cpp",
+  "output": "src/CMakeFiles/func.dir/source/hello.cpp.o"
+},
+{
+  "directory": "/home/arch/code/build/src",
+  "command": "/usr/sbin/gcc  -I/home/arch/code/src/include -g -o CMakeFiles/func.dir/source/shuixianhua.c.o -c /home/arch/code/src/source/shuixianhua.c",
+  "file": "/home/arch/code/src/source/shuixianhua.c",
+  "output": "src/CMakeFiles/func.dir/source/shuixianhua.c.o"
+},
+{
+  "directory": "/home/arch/code/build/test",
+  "command": "/usr/sbin/g++  -I/home/arch/code/src/include -isystem /home/arch/code/3rd/googletest/googletest/include -isystem /home/arch/code/3rd/googletest/googletest  -g -Wall -g -std=gnu++14 -o CMakeFiles/ltest.dir/testcase.cpp.o -c /home/arch/code/test/testcase.cpp",
+  "file": "/home/arch/code/test/testcase.cpp",
+  "output": "test/CMakeFiles/ltest.dir/testcase.cpp.o"
+}
+]
